@@ -1,0 +1,5 @@
+tupla = ('Luiz', 'Fernando', 'dos', 'Santos')
+t = list(tupla)
+t.append('Manon')
+tupla = tuple(t)
+print(tupla)
